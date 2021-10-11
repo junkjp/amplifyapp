@@ -1,6 +1,6 @@
 import React , { useState, useEffect } from 'react';
 import logo from './logo.svg';
-import { API } from 'aws-amplify' ;
+import { API } from 'aws-amplify';
 import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { listNotes } from './graphql/queries';
